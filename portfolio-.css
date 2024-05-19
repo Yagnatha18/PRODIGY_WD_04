@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5a6a6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a8adde;
+    color: #d66b6b;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    font-style: oblique;
+    font-size: 35px;
+    list-style: none;
+    flex-wrap: wrap;
+    background-color: #8e5719;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav a {
+    margin: 0 15px;
+    justify-content: center;
+    transition: color .4s ease;
+    text-decoration: none;
+    color: #a5d1e7;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile-pic img {
+width: 200px; /* Adjust the size of the circular image as needed */
+height: 200px;
+border: 3px solid red;
+border-radius: 100px;
+overflow: hidden;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
